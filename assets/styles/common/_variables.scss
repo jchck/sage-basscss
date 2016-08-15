@@ -1,9 +1,106 @@
-// Glyphicons font path
-$icon-font-path:        "../fonts/";
+// Media Queries
 
-// Grid settings
-$main-sm-columns:       12;
-$sidebar-sm-columns:    4;
+$breakpoint-xs: '(max-width: 40em)';
+$breakpoint-sm: '(min-width: 40em)';
+$breakpoint-md: '(min-width: 52em)';
+$breakpoint-lg: '(min-width: 64em)';
 
-// Colors
-$brand-primary:         #27ae60;
+$breakpoint-sm-md: '(min-width: 40em) and (max-width: 52em)';
+$breakpoint-md-lg: '(min-width: 52em) and (max-width: 64em)';
+
+// Type Scale
+
+$h1: 2rem;
+$h2: 1.5rem;
+$h3: 1.25rem;
+$h4: 1rem;
+$h5: .875rem;
+$h6: .75rem;
+
+// Typography
+
+$line-height-1: 1;
+$line-height-2: 1.125;
+$line-height-3: 1.25;
+$line-height-4: 1.5;
+$letter-spacing: 1;
+$caps-letter-spacing: .2em;
+$bold-font-weight: bold;
+
+// Colors 
+
+$aqua: #7fdbff;
+$blue: #0074d9;
+$navy: #001f3f;
+$teal: #39cccc;
+$green: #2ecc40;
+$olive: #3d9970;
+$lime: #01ff70;
+$yellow: #ffdc00;
+$orange: #ff851b;
+$red: #ff4136;
+$fuchsia: #f012be;
+$purple: #b10dc9;
+$maroon: #85144b;
+$white: #fff;
+$silver: #ddd;
+$gray: #aaa;
+$black: #111;
+
+// Lighten Background
+
+$lighten-1: rgba(255, 255, 255, .0625);
+$lighten-2: rgba(255, 255, 255, .125);
+$lighten-3: rgba(255, 255, 255, .25);
+$lighten-4: rgba(255, 255, 255, .5);
+
+// Darken Background
+
+$darken-1: rgba(0, 0, 0, .0625);
+$darken-2: rgba(0, 0, 0, .125);
+$darken-3: rgba(0, 0, 0, .25);
+$darken-4: rgba(0, 0, 0, .5);
+
+// Layout
+
+$width-1: 24rem;
+$width-2: 32rem;
+$width-3: 48rem;
+$width-4: 64rem;
+
+// White Space (Margin & Padding)
+
+$space-1: .5rem;
+$space-2: 1rem;
+$space-3: 2rem;
+$space-4: 4rem;
+
+// Media Object
+
+$media-object-space: $space-1;
+
+// Z Index
+
+$z1: 1;
+$z2: 2;
+$z3: 3;
+$z4: 4;
+
+// Border
+
+$border-width: 1px;
+$border-radius: 3px;
+
+// Buttons
+
+$button-font-family: inherit;
+$button-font-size: inherit;
+$button-font-weight: $bold-font-weight;
+$button-line-height: 1.125rem;
+$button-padding-y: .5rem;
+$button-padding-x: 1rem;
+
+$button-color: #fff;
+$button-background-color: $blue;
+
+

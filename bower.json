@@ -7,29 +7,40 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "3.3.6"
+    "basscss-sass": "^4.0.0"
   },
   "overrides": {
-    "bootstrap-sass": {
+    "basscss-sass": {
       "main": [
-        "./assets/stylesheets/_bootstrap.scss",
-        "./assets/javascripts/bootstrap/transition.js",
-        "./assets/javascripts/bootstrap/alert.js",
-        "./assets/javascripts/bootstrap/button.js",
-        "./assets/javascripts/bootstrap/carousel.js",
-        "./assets/javascripts/bootstrap/collapse.js",
-        "./assets/javascripts/bootstrap/dropdown.js",
-        "./assets/javascripts/bootstrap/modal.js",
-        "./assets/javascripts/bootstrap/tooltip.js",
-        "./assets/javascripts/bootstrap/popover.js",
-        "./assets/javascripts/bootstrap/scrollspy.js",
-        "./assets/javascripts/bootstrap/tab.js",
-        "./assets/javascripts/bootstrap/affix.js",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.ttf",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
-        "./assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
+        "./scss/_type-scale.scss",
+        "./scss/_typography.scss",
+        "./scss/_layout.scss",
+        "./scss/_align.scss",
+        "./scss/_margin.scss",
+        "./scss/_padding.scss",
+        "./scss/_grid.scss",
+        "./scss/_flexbox.scss",
+        "./scss/_border.scss",
+         "./scss/_hide.scss",
+        "./scss/all.scss",
+        "./scss/_background-color.scss",
+        "./scss/_background-image.scss",
+        "./scss/_border-colors.scss",
+        "./scss/_btn.scss",
+        "./scss/_btn-outline.scss",
+        "./scss/_btn-primary.scss",
+        "./scss/_colors.scss",
+        "./scss/_darken.scss",
+        "./scss/_forms.scss",
+        "./scss/_highlight-dark.scss",
+        "./scss/_highlight.scss",
+        "./scss/_input-range.scss",
+        "./scss/_lighten.scss",
+        "./scss/_media-object.scss",
+        "./scss/_posistion.scss",
+        "./scss/_progress.scss",
+        "./scss/_responsive-padding.scss",
+        "./scss/_responsive-margin.scss"
       ]
     }
   }
