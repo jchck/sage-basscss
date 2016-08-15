@@ -1,4 +1,4 @@
-# [Sage-Basscss]
+# Sage-Basscss
 
 Sage-Basscss is a WordPress starter theme based on HTML5 Boilerplate, gulp, Bower, and Basscss Sass, that will help you make better themes.
 
